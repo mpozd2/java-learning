@@ -130,14 +130,6 @@ public class Variables {
         System.out.println(r2);
 
 
-
-
-
-
-
-
-
-
     }
 }
 
