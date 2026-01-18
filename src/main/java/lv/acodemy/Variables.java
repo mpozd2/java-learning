@@ -87,8 +87,8 @@ public class Variables {
         int division = num1/num2;
         System.out.println(division);
 
-        double num3 = 10;
-        double num4 = 3;
+        double num3 = 10.0;
+        double num4 = 3.0;
         double divisionDouble = num3/num4;
         System.out.println(divisionDouble);
 
@@ -112,7 +112,7 @@ public class Variables {
         number++;
         System.out.println(number);
         number--;
-        System.out.println(number--);
+        System.out.println(number);
 
         int counter=10;
         counter++;
