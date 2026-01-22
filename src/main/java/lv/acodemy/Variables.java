@@ -105,7 +105,7 @@ public class Variables {
 
         //increment (++ )(увеличение на +1)
         // ++preincrement - перед +1
-        //postIncrement
+        //postIncrement (??)
         //Decrement (--) уменьшение на -1
         // ++predecrement
 
@@ -128,6 +128,37 @@ public class Variables {
         System.out.println(r);
         System.out.println(r1);
         System.out.println(r2);
+
+
+        //STRING
+
+        String name="John";
+        String lastName="Doe";
+
+        //Print separately
+        System.out.println(name);
+        System.out.println(lastName);
+
+        String fullName= name+" "+lastName;
+        System.out.println(fullName);
+
+
+        //%s - string -
+        //%d - numbers
+
+        System.out.println(String.format("My name is :%s,my Surname is :%s" ,name, lastName));
+        System.out.printf("My name is :%s,my Surname is :%s\n" ,name, lastName);
+        System.out.printf("My name is :%s,my Surname is :%s%n" ,name, lastName);
+
+        var myCurentAge=30;
+        var text= "Hello World";
+
+        String myVar;
+        myVar = "Helloy world)";
+
+
+
+
 
 
     }
