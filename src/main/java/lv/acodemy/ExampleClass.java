@@ -7,6 +7,7 @@ public class ExampleClass {
         greet("Nikita");
 
 
+
         System.out.println(add(30,60));
         int x = add(30,90);
         System.out.println(x);
@@ -18,7 +19,9 @@ public class ExampleClass {
         System.out.println(add(a,b));
 
 
-       // String firstStudent  = calculateGrade( score:70);
+
+
+       //String firstStudent = calculateGrade( score:70);
        // System.out.println(firstStudent);
 
           }
